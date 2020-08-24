@@ -39,7 +39,6 @@ public class NetAnimManager : MonoBehaviour
     private Animator animator;
     private Animation _anim;
     private AnimationState animState;
-    private float animTime;
 
     public enum CurrentState
     {
@@ -190,41 +189,33 @@ public class NetAnimManager : MonoBehaviour
         while (!isDie)
         {
             yield return new WaitForSeconds(0.2f);
-            if (!pv.isMine)
-            {
-                if (net_anim == 0)
+                if (net_anim == 1)
                 {
                     _anim.CrossFade(anims.idle1.name, 0.3f);
                 }
-                else if (net_anim == 1)
+                else if (net_anim == 2)
                 {
                     _anim.CrossFade(anims.move.name, 0.3f);
                 }
-                else if (net_anim == 2)
+                else if (net_anim == 3)
                 {
                     _anim.CrossFade(anims.attack.name, 0.3f);
                 }
-                else if (net_anim == 3)
+                else if (net_anim == 4)
                 {
                     _anim.CrossFade(anims.skill1.name, 0.3f);
                 }
-                else if (net_anim == 4)
+                else if (net_anim == 5)
                 {
                     _anim.CrossFade(anims.skill2.name, 0.3f);
                 }
-                else if (net_anim == 5)
+                else if (net_anim == 6)
                 {
                     _anim.CrossFade(anims.skill3.name, 0.3f);
                 }
-                else if (net_anim == 6)
-                {
-                    _anim.CrossFade(anims.hit.name, 0.3f);
-                }
                 else if (net_anim == 7)
                 {
-                    _anim.CrossFade(anims.die.name, 0.3f);
-
-                    yield break;
+                    _anim.CrossFade(anims.hit.name, 0.3f);
                 }
                 else if (net_anim == 8)
                 {
@@ -232,7 +223,7 @@ public class NetAnimManager : MonoBehaviour
 
                     yield break;
                 }
-            }
+            
         }
     }
 
