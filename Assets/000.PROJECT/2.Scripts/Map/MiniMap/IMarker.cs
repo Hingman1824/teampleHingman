@@ -26,6 +26,7 @@ public class IMarker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         Vector3 PlayerPos = Player.GetComponent<Transform>().position; //벡터3로 플레이어 포지션을 가져옴 
 
         // 플레이어의 트랜스폼.오일러앵글을 통해 0~360도 사이의 값을 대입

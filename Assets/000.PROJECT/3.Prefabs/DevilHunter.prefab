@@ -944,7 +944,7 @@ GameObject:
   - component: {fileID: 4253991013404072135}
   - component: {fileID: 7919890682307314365}
   m_Layer: 0
-  m_Name: DevilHunter
+  m_Name: devilhunter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -976,10 +976,10 @@ Animator:
   m_GameObject: {fileID: 3477595734127608445}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: df9f3f4a60a49be408d507a2f87cfb45, type: 3}
-  m_Controller: {fileID: 9100000, guid: 69b007471a661354d814eb381d1edba8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4317b2bb335127845a0e900110eabf0f, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1

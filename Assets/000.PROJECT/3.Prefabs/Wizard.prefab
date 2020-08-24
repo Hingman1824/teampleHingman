@@ -1798,7 +1798,7 @@ GameObject:
   - component: {fileID: 8890036082362183524}
   - component: {fileID: 3296613365105276190}
   m_Layer: 0
-  m_Name: Wizard
+  m_Name: wizard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1833,7 +1833,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: c6f1702dbdd25b84db64f2f7e4f3d40c, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
