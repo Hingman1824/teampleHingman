@@ -10,12 +10,11 @@ public class MonkSkill : PlayerManager
     public bool isCycloneStrike = false;
     public bool isDashingStrike = false;
     public bool isWaveOfLight = false;
-   
-    //BoxCollider babaWeapon;
+
 
     private void Awake()
-    {
-        
+    {      
+
         myRb = GetComponent<Rigidbody>();
         
         pv = GetComponent<PhotonView>();
@@ -26,7 +25,7 @@ public class MonkSkill : PlayerManager
         
         anim = gameObject.GetComponentInChildren<Animator>();
 
-        //babaWeapon = GameObject.FindWithTag("BabaWeapon").GetComponent<BoxCollider>();
+        
 
         
         if (pv.isMine)
@@ -54,10 +53,10 @@ public class MonkSkill : PlayerManager
             }
 
             if (Input.GetKey(KeyCode.E) && isCycloneStrike == false)
-            {
+            {               
                 StartCoroutine(CycloneStrike());
-            }
-
+            }       
+            
             if (Input.GetKey(KeyCode.R) && isDashingStrike == false)
             {
                 StartCoroutine(DashingStrike());
@@ -88,7 +87,7 @@ public class MonkSkill : PlayerManager
     {
         isCycloneStrike = true;
         anim.SetBool("isSkill1", true);
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(1.0f);
         anim.SetBool("isSkill1", false);
         isCycloneStrike = false;
         yield return null;

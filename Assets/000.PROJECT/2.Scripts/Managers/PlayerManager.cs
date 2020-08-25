@@ -8,8 +8,8 @@ public class PlayerManager : MonoBehaviour, IPlayerMove, IPlayerStats, IPlayerAn
 {
     [Space(3)]
     [Header("플레이어 스탯")]
-    //[Tooltip("플레이어 체력")]
-    //[Range(0, 9999)] public int playerHp = 100;
+    [Tooltip("플레이어 체력")]
+    [Range(0, 9999)] public int playerHp = 100;
     [Tooltip("플레이어 이동속도")]
     [Range(0, 10)] public float playerSpeed;
     [Tooltip("플레이어 공격속도")]

@@ -28,14 +28,18 @@ MonoBehaviour:
   NetworkLogging: 1
   RunInBackground: 1
   RpcList:
+  - AttackInput
   - Chat
   - ColorRpc
   - DestroyRpc
   - DoJump
   - Flash
   - InstantiateRpc
+  - LogChat
   - Marco
   - PickupItemInit
+  - PlayerMoveAnimation
+  - PlayerMovement
   - Polo
   - PunPickup
   - PunPickupSimple
@@ -43,8 +47,4 @@ MonoBehaviour:
   - RequestForPickupItems
   - RequestForPickupTimes
   - TaggedPlayer
-  - LogChat
-  - PlayerMoveAnimation
-  - AttackInput
-  - PlayerMovement
   DisableAutoOpenWizard: 1
