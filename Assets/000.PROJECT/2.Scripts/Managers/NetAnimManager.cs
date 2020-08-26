@@ -146,6 +146,7 @@ public class NetAnimManager : MonoBehaviour
             myTr.position = Vector3.Lerp(myTr.position, currPos, Time.deltaTime * 3.0f);
             myTr.rotation = Quaternion.Slerp(myTr.rotation, currRot, Time.deltaTime * 3.0f);
         }
+        
     }
 
     public void Die()
