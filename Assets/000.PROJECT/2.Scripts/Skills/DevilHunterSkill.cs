@@ -65,9 +65,14 @@ public class DevilHunterSkill : PlayerManager
                 StartCoroutine(SmokeScreen());
             }
 
-            if (Input.GetKey(KeyCode.R) && isVault == false)
+            if (Input.GetKeyDown(KeyCode.R) && isVault == false)
             {
-                StartCoroutine(Vault());
+                StartCoroutine(VaultOn());
+            }
+            else if(Input.GetKeyUp(KeyCode.R) && isVault == true)
+            {
+                StartCoroutine(VaultOff());
+                playerSpeed /= 4;
             }
 
             if (Input.GetKey(KeyCode.F) && isCompanion == false)
@@ -102,11 +107,20 @@ public class DevilHunterSkill : PlayerManager
         yield return null;
     }
 
-    private IEnumerator Vault()
+    private IEnumerator VaultOn()
     {
         isVault = true;
         anim.SetBool("isSkill2", true);
         yield return new WaitForSeconds(0.35f);
+        // 빨리 움직이는 기술이므로 평소의 4배 속도로
+        playerSpeed *= 4;
+        // 플레이어가 움직이게 한다.
+        PlayerMovement();
+        anim.SetFloat("Speed", 1.0f);
+    }
+
+    private IEnumerator VaultOff()
+    {
         anim.SetBool("isSkill2", false);
         isVault = false;
         yield return null;
