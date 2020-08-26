@@ -695,10 +695,17 @@
     </Reference>
     <Reference Include="Photon3Unity3D">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <HintPath>C:/Unity/Diablo3/Assets/Plugins/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
       <HintPath>C:/Unity/Diablo3/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+=======
+      <HintPath>C:/SVS_Git_Project/Diablo3/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>C:/SVS_Git_Project/Diablo3/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+>>>>>>> origin/doloma
 =======
       <HintPath>C:/SVS_Git_Project/Diablo3/Assets/Plugins/Photon3Unity3D.dll</HintPath>
     </Reference>
@@ -1068,6 +1075,7 @@
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <HintPath>C:/Unity/Diablo3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Monetization">
@@ -1106,6 +1114,8 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Unity/Diablo3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
 =======
+=======
+>>>>>>> origin/doloma
       <HintPath>C:/SVS_Git_Project/Diablo3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Monetization">
@@ -1143,6 +1153,9 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/SVS_Git_Project/Diablo3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+<<<<<<< HEAD
+>>>>>>> origin/doloma
+=======
 >>>>>>> origin/doloma
     </Reference>
   </ItemGroup>

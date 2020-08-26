@@ -319,6 +319,7 @@
     </Reference>
     <Reference Include="Photon3Unity3D">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <HintPath>C:/Unity/Diablo3/Assets/Plugins/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
@@ -326,6 +327,15 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Unity/Diablo3/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+=======
+      <HintPath>C:/SVS_Git_Project/Diablo3/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>C:/SVS_Git_Project/Diablo3/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/SVS_Git_Project/Diablo3/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+>>>>>>> origin/doloma
 =======
       <HintPath>C:/SVS_Git_Project/Diablo3/Assets/Plugins/Photon3Unity3D.dll</HintPath>
     </Reference>
@@ -698,6 +708,7 @@
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <HintPath>C:/Unity/Diablo3/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
@@ -742,6 +753,8 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Unity/Diablo3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
 =======
+=======
+>>>>>>> origin/doloma
       <HintPath>C:/SVS_Git_Project/Diablo3/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
@@ -785,6 +798,9 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/SVS_Git_Project/Diablo3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+<<<<<<< HEAD
+>>>>>>> origin/doloma
+=======
 >>>>>>> origin/doloma
     </Reference>
   </ItemGroup>
