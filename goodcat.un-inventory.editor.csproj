@@ -274,8 +274,6 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-<<<<<<< HEAD
-<<<<<<< HEAD
       <HintPath>C:/Unity/Diablo3/Assets/Plugins/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
@@ -283,24 +281,6 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Unity/Diablo3/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
-=======
-      <HintPath>C:/SVS_Git_Project/Diablo3/Assets/Plugins/Photon3Unity3D.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>C:/SVS_Git_Project/Diablo3/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>C:/SVS_Git_Project/Diablo3/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
->>>>>>> origin/doloma
-=======
-      <HintPath>C:/SVS_Git_Project/Diablo3/Assets/Plugins/Photon3Unity3D.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>C:/SVS_Git_Project/Diablo3/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>C:/SVS_Git_Project/Diablo3/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
->>>>>>> origin/doloma
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -663,8 +643,6 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-<<<<<<< HEAD
-<<<<<<< HEAD
       <HintPath>C:/Unity/Diablo3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
@@ -675,23 +653,6 @@
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
       <HintPath>C:/Unity/Diablo3/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
-=======
-=======
->>>>>>> origin/doloma
-      <HintPath>C:/SVS_Git_Project/Diablo3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/SVS_Git_Project/Diablo3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/SVS_Git_Project/Diablo3/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/SVS_Git_Project/Diablo3/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
-<<<<<<< HEAD
->>>>>>> origin/doloma
-=======
->>>>>>> origin/doloma
     </Reference>
   </ItemGroup>
   <ItemGroup>
